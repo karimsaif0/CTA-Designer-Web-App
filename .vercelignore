@@ -1,0 +1,12 @@
+.git/
+.github/
+node_modules/
+dist/
+research/
+test-results/
+playwright-report/
+verification-export/
+.release-check/
+.env*
+*.log
+*.tsbuildinfo

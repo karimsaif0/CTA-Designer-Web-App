@@ -1,0 +1,93 @@
+{
+  "testedAt": "2026-11-03T01:56:16.650Z",
+  "viewport": "1440 × 1000",
+  "browser": "155.0.8059.85",
+  "frames": 179,
+  "meanFrameMs": 6.983240223463687,
+  "p95FrameMs": 7.099999999999909,
+  "maxFrameMs": 13.799999999999955,
+  "longTasksOver50ms": 0,
+  "totalLongTaskMs": 0,
+  "domElements": 837,
+  "mainCanvasTiles": 42,
+  "heapMB": 5.283860206604004,
+  "resources": [
+    {
+      "name": "/assets/index-DJnNYtKb.js",
+      "bytes": 119126
+    },
+    {
+      "name": "/assets/index-iX_NI-iT.css",
+      "bytes": 8316
+    },
+    {
+      "name": "/art/art-6.webp",
+      "bytes": 5238
+    },
+    {
+      "name": "/art/art-0.webp",
+      "bytes": 6546
+    },
+    {
+      "name": "/art/art-7.webp",
+      "bytes": 10070
+    },
+    {
+      "name": "/art/art-4.webp",
+      "bytes": 10766
+    },
+    {
+      "name": "/art/art-2.webp",
+      "bytes": 5390
+    },
+    {
+      "name": "/art/art-3.webp",
+      "bytes": 10486
+    },
+    {
+      "name": "/art/art-5.webp",
+      "bytes": 7060
+    },
+    {
+      "name": "/art/art-1.webp",
+      "bytes": 6616
+    },
+    {
+      "name": "/presets/editorial.webp",
+      "bytes": 7334
+    },
+    {
+      "name": "/presets/gallery.webp",
+      "bytes": 11682
+    },
+    {
+      "name": "/presets/colorful.webp",
+      "bytes": 12432
+    },
+    {
+      "name": "/presets/cinematic.webp",
+      "bytes": 9784
+    },
+    {
+      "name": "/presets/mono.webp",
+      "bytes": 9138
+    },
+    {
+      "name": "/presets/portfolio.webp",
+      "bytes": 11854
+    },
+    {
+      "name": "/presets/experimental.webp",
+      "bytes": 8694
+    },
+    {
+      "name": "/favicon.ico",
+      "bytes": 300
+    },
+    {
+      "name": "/fonts/dm-sans.woff2",
+      "bytes": 31592
+    }
+  ],
+  "consoleErrors": []
+}
