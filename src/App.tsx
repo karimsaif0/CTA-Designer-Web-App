@@ -20,6 +20,7 @@ import { EditorFooter } from "./components/EditorFooter";
 import { Inspector } from "./components/Inspector";
 import { AssetLibrary } from "./components/AssetLibrary";
 import { loadPreferences, savePreferences } from "./lib/preferences";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const { project, update, save, notice, notify } = useEditor();
@@ -190,6 +191,7 @@ export default function App() {
         guides={guides}
         setGuides={setGuides}
       />{" "}
+      <Analytics />
     </div>
   );
 }
