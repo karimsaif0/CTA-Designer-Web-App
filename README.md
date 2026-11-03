@@ -7,7 +7,7 @@
 
 **[GitHub repository](https://github.com/karimsaif0/CTA-Designer-Web-App)** · **[Report an issue](https://github.com/karimsaif0/CTA-Designer-Web-App/issues)**
 
-Live demo: production deployment pending.
+**[Open the live Vercel demo](https://cta-designer-web-app.vercel.app)**
 
 ![CTA Designer desktop workspace](docs/images/editor.webp)
 

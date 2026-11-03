@@ -46,7 +46,7 @@ The first profile exposed expensive composition from seven additional live CSS 3
 
 - The Toolcraft case study was readable; its live demo returned a blank page in automated Chrome, so that interface's exact behavior could not be inspected. No source/assets were copied.
 - Apply implements standalone browser project saving. An optional trusted local filesystem service was not added. The browser cannot modify arbitrary website projects; use React/HTML export.
-- Testing used desktop Chrome and responsive viewport emulation on this Windows machine. Safari, Firefox, physical touchscreen hardware, real screen readers, printer behavior and cloud deployment were not tested. No deployment was performed.
+- Testing used desktop Chrome and responsive viewport emulation on this Windows machine. Safari, Firefox, physical touchscreen hardware, real screen readers, printer behavior and cloud deployment were not tested. The public release and production verification are documented in [RELEASE.md](RELEASE.md).
 - Browser storage is origin-specific and can be cleared or denied by the user/browser. Save errors are reported, and JSON export provides a portable backup. Undo/redo history does not persist across reloads.
 - CSS 3D is the only room renderer; WebGL-specific texture disposal, DPR settings and context-loss handling are inapplicable. PNG capture works with the bundled/local raster assets in the tested browser. Arbitrary remote images and SVG uploads are not accepted.
 - Build output may include non-fatal upstream Zod annotation warnings. The generated Vite export may warn that `use client` is ignored, which is expected for a client-only Vite bundle. Neither prevents successful TypeScript or production builds.

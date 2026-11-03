@@ -428,6 +428,7 @@ test("projects can be created, renamed, duplicated and deleted", async ({
     .getByRole("button", { name: "Open projects", exact: true })
     .click();
   await page.getByRole("button", { name: "New project", exact: true }).click();
+  await expect(page.getByRole("dialog")).toHaveCount(0);
   await page
     .getByLabel("Project name", { exact: true })
     .fill("Second exploration");
