@@ -61,6 +61,7 @@ try {
 await copyFile("LICENSE", "public/LICENSE");
 let notices = await readFile("THIRD_PARTY_NOTICES.md", "utf8");
 for (const name of [
+  "@vercel/analytics",
   "react",
   "react-dom",
   "zustand",
